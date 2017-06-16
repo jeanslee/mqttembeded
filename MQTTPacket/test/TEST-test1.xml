@@ -1,0 +1,14 @@
+<testsuite name="test1" tests="6">
+<testcase classname="test1" name="de/serialization" time="0.000" >
+</testcase>
+<testcase classname="test1" name="de/serialization" time="0.000" >
+</testcase>
+<testcase classname="test1" name="de/serialization" time="0.000" >
+</testcase>
+<testcase classname="test1" name="de/serialization" time="0.000" >
+</testcase>
+<testcase classname="test1" name="de/serialization" time="0.000" >
+</testcase>
+<testcase classname="test1" name="de/serialization" time="0.000" >
+</testcase>
+</testsuite>

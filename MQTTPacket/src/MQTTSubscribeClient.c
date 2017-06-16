@@ -72,7 +72,7 @@ int MQTTSerialize_subscribe(unsigned char* buf, int buflen, unsigned char dup, u
 	ptr += MQTTPacket_encode(ptr, rem_len); /* write remaining length */;
 
 	writeInt(&ptr, packetid);
-
+	printf("Subscribe packetid: %02x\n", packetid);
 	for (i = 0; i < count; ++i)
 	{
 		writeMQTTString(&ptr, topicFilters[i]);

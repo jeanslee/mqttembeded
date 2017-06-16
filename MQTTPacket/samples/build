@@ -1,3 +1,4 @@
+#!/bin/sh
 gcc -Wall -c transport.c -Os -s
 gcc qos0pub.c transport.o -I ../src ../src/MQTTConnectClient.c ../src/MQTTSerializePublish.c ../src/MQTTPacket.c -o qos0pub -Os -s
 
